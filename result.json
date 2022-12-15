@@ -1,0 +1,344 @@
+{
+  "businesses": [
+    {
+      "Business name": "Burger & Lobster - Flatiron NYC",
+      "Business rating": 4.0,
+      "Number of reviews": 5808,
+      "Business yelp url": "https://www.yelp.com/biz/burger-and-lobster-flatiron-nyc-new-york",
+      "Business website": "https://www.burgerandlobster.com/locations/new-york/flatiron/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Marius C.",
+          "Reviewer location": "Seattle, WA",
+          "Review date": "11/18/2022"
+        },
+        {
+          "Reviewer name": "Jake W.",
+          "Reviewer location": "New York, NY",
+          "Review date": "11/13/2022"
+        },
+        {
+          "Reviewer name": "Andy L.",
+          "Reviewer location": "Manhattan, New York, NY",
+          "Review date": "11/15/2022"
+        },
+        {
+          "Reviewer name": "Natalie C.",
+          "Reviewer location": "Dallas, TX",
+          "Review date": "11/1/2022"
+        },
+        {
+          "Reviewer name": "Victoria W.",
+          "Reviewer location": "New York, NY",
+          "Review date": "10/4/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Shake Shack Madison Square Park",
+      "Business rating": 4.0,
+      "Number of reviews": 5794,
+      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-2",
+      "Business website": "https://shakeshack.olo.com/menu/madison-square-park/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Jairo T.",
+          "Reviewer location": "New York, NY",
+          "Review date": "8/2/2022"
+        },
+        {
+          "Reviewer name": "Samantha D.",
+          "Reviewer location": "New York, NY",
+          "Review date": "10/10/2022"
+        },
+        {
+          "Reviewer name": "Richard A.",
+          "Reviewer location": "Peekskill, NY",
+          "Review date": "9/27/2022"
+        },
+        {
+          "Reviewer name": "Ruwan J.",
+          "Reviewer location": "New York, NY",
+          "Review date": "9/27/2022"
+        },
+        {
+          "Reviewer name": "Candace L.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "8/2/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Junior's Restaurant",
+      "Business rating": 4.0,
+      "Number of reviews": 5410,
+      "Business yelp url": "https://www.yelp.com/biz/juniors-restaurant-new-york-9",
+      "Business website": "https://www.juniorscheesecake.com/blog/restaurants/times-square/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Dorothy C.",
+          "Reviewer location": "NJ, NJ",
+          "Review date": "11/27/2022"
+        },
+        {
+          "Reviewer name": "Cat S.",
+          "Reviewer location": "Bakersfield, CA",
+          "Review date": "12/5/2022"
+        },
+        {
+          "Reviewer name": "Innas I.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "12/4/2022"
+        },
+        {
+          "Reviewer name": "Cher N.",
+          "Reviewer location": "Louisville, KY",
+          "Review date": "12/2/2022"
+        },
+        {
+          "Reviewer name": "Jane R.",
+          "Reviewer location": "San Diego, CA",
+          "Review date": "11/30/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Breakroom",
+      "Business rating": 4.5,
+      "Number of reviews": 1680,
+      "Business yelp url": "https://www.yelp.com/biz/breakroom-new-york",
+      "Business website": "http://breakroomnewyork.mybistro.online",
+      "First five reviews": [
+        {
+          "Reviewer name": "Fern E.",
+          "Reviewer location": "New York, NY",
+          "Review date": "8/12/2022"
+        },
+        {
+          "Reviewer name": "Trish L.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "5/19/2022"
+        },
+        {
+          "Reviewer name": "Samantha S.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "3/21/2022"
+        },
+        {
+          "Reviewer name": "Shawna R.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "11/30/2022"
+        },
+        {
+          "Reviewer name": "Tanya H.",
+          "Reviewer location": "New York, NY",
+          "Review date": "12/17/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Ruby's Cafe",
+      "Business rating": 4.0,
+      "Number of reviews": 1521,
+      "Business yelp url": "https://www.yelp.com/biz/rubys-cafe-new-york-4",
+      "Business website": "http://www.rubyscafe.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Jamie Y.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "12/1/2022"
+        },
+        {
+          "Reviewer name": "Demora F.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "12/10/2022"
+        },
+        {
+          "Reviewer name": "Regina L.",
+          "Reviewer location": "New York, NY",
+          "Review date": "12/3/2022"
+        },
+        {
+          "Reviewer name": "Sandra L.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "11/11/2022"
+        },
+        {
+          "Reviewer name": "Karina P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/5/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Shake Shack Theater District",
+      "Business rating": 4.0,
+      "Number of reviews": 3124,
+      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-9",
+      "Business website": "https://shakeshack.olo.com/menu/theater-district/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Troy E.",
+          "Reviewer location": "Honolulu, HI",
+          "Review date": "11/1/2022"
+        },
+        {
+          "Reviewer name": "Peter C.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "11/10/2022"
+        },
+        {
+          "Reviewer name": "Melissa G.",
+          "Reviewer location": "Charleston, SC",
+          "Review date": "7/21/2022"
+        },
+        {
+          "Reviewer name": "Ramona G.",
+          "Reviewer location": "Walnut Creek, CA",
+          "Review date": "5/20/2022"
+        },
+        {
+          "Reviewer name": "Alvin A.",
+          "Reviewer location": "Honolulu, HI",
+          "Review date": "5/19/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Johny's Luncheonette",
+      "Business rating": 4.5,
+      "Number of reviews": 1145,
+      "Business yelp url": "https://www.yelp.com/biz/johnys-luncheonette-new-york",
+      "Business website": "http://johnysluncheonette.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Spencer N.",
+          "Reviewer location": "North Logan, UT",
+          "Review date": "12/3/2022"
+        },
+        {
+          "Reviewer name": "Patricia M.",
+          "Reviewer location": "San Antonio, TX",
+          "Review date": "12/7/2022"
+        },
+        {
+          "Reviewer name": "Tony B.",
+          "Reviewer location": "Normandy Park, WA",
+          "Review date": "11/1/2022"
+        },
+        {
+          "Reviewer name": "Jennifer Y.",
+          "Reviewer location": "Houston, TX",
+          "Review date": "10/10/2022"
+        },
+        {
+          "Reviewer name": "Stephanie K.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "7/31/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Whiskey Tavern",
+      "Business rating": 4.5,
+      "Number of reviews": 839,
+      "Business yelp url": "https://www.yelp.com/biz/whiskey-tavern-new-york",
+      "Business website": "http://whiskeytavernnyc.com/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Richard H.",
+          "Reviewer location": "CA, CA",
+          "Review date": "10/29/2022"
+        },
+        {
+          "Reviewer name": "Rafik C.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "12/7/2022"
+        },
+        {
+          "Reviewer name": "Lauren O.",
+          "Reviewer location": "Omaha, NE",
+          "Review date": "10/4/2022"
+        },
+        {
+          "Reviewer name": "Rafia R.",
+          "Reviewer location": "Washington, DC",
+          "Review date": "6/24/2022"
+        },
+        {
+          "Reviewer name": "Laura S.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "11/29/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Butcher Bar",
+      "Business rating": 4.0,
+      "Number of reviews": 2254,
+      "Business yelp url": "https://www.yelp.com/biz/butcher-bar-astoria-2",
+      "Business website": "http://butcherbar.com/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Rachel K.",
+          "Reviewer location": "New York, NY",
+          "Review date": "8/18/2022"
+        },
+        {
+          "Reviewer name": "Des K.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "12/2/2022"
+        },
+        {
+          "Reviewer name": "Michael S.",
+          "Reviewer location": "New York, NY",
+          "Review date": "9/21/2022"
+        },
+        {
+          "Reviewer name": "Sandra R.",
+          "Reviewer location": "Astoria, Queens, NY",
+          "Review date": "12/12/2022"
+        },
+        {
+          "Reviewer name": "Manny S.",
+          "Reviewer location": "East Elmhurst, NY",
+          "Review date": "12/13/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Shake Shack Upper West Side",
+      "Business rating": 4.0,
+      "Number of reviews": 2446,
+      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-5",
+      "Business website": "https://shakeshack.olo.com/menu/upper-west-side/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Emma M.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "8/17/2022"
+        },
+        {
+          "Reviewer name": "William I.",
+          "Reviewer location": "Upper West Side, New York, NY",
+          "Review date": "11/11/2022"
+        },
+        {
+          "Reviewer name": "Troy E.",
+          "Reviewer location": "Honolulu, HI",
+          "Review date": "6/21/2022"
+        },
+        {
+          "Reviewer name": "Giacomo C.",
+          "Reviewer location": "New York, NY",
+          "Review date": "4/16/2022"
+        },
+        {
+          "Reviewer name": "Alex F.",
+          "Reviewer location": "Brooklyn, Brooklyn, NY",
+          "Review date": "11/17/2022"
+        }
+      ]
+    }
+  ]
+}
