@@ -11,7 +11,7 @@ git clone https://github.com/VadymShkarbul/Yelp-Crawler.git
 cd Yelp-Crawler
 python -m venv venv
 source venv/bin/activate
-pip install -r requerements.txt
+pip install -r requirements.txt
 ```
 
 ### Create .env file in the project directory and put there your API_KEY in next format: 
