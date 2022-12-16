@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ### Create .env file in the project directory and put there your API_KEY in next format: 
 ```shell
-API_KEY=Bearer YOUR_API_KEY
+API_KEY = YOUR_API_KEY
 ```
 ### Get API key on this page https://www.yelp.com/developers/v3/manage_app
 
