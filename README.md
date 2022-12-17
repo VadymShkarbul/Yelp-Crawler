@@ -1,6 +1,15 @@
 # Yelp Crawler
-## Scraps all the businesses from Yelp website.
+## Scraps businesses from [Yelp](https://www.yelp.com/) website.
 
+## Features:
+
+* You can get information about 1000 businesses registered on Yelp.
+* The crawler should be given category of business and location as an input.
+* Returns a result.json file, representing a business from the given search results
+
+## result.json file will look like this:
+
+<img width="751" alt="Screenshot 2022-12-17 at 16 51 25" src="https://user-images.githubusercontent.com/111114742/208247757-c0bac924-6581-4a0e-bcd6-c7daa819ebaf.png">
 
 # Installation
 
@@ -19,8 +28,3 @@ pip install -r requirements.txt
 API_KEY = YOUR_API_KEY
 ```
 ### Get API key on this page https://www.yelp.com/developers/v3/manage_app
-
-## Features:
-
-### It is possible to enter category of businesses, location and to reduce waiting time - number of businesses:
-<img width="338" alt="Screenshot 2022-12-15 at 04 58 40" src="https://user-images.githubusercontent.com/111114742/207762402-311011ab-5b9b-43e9-9768-91c799fd4b68.png">
