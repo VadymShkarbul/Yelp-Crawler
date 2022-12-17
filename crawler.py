@@ -1,9 +1,9 @@
+import asyncio
 import json
 import os
 import re
-import time
 
-# import httpx as httpx
+import aiohttp
 import requests
 
 from bs4 import BeautifulSoup
@@ -59,49 +59,30 @@ def get_businesses(category, location):
         })
 
     return businesses
-    # with open("result.json", "w") as result_file:
-    #     json.dump(businesses, result_file, indent=2)
 
 
-def get_web_address(url: str) -> str:
-    """
-    Yelp API search endpoints return a lot of useful information,
-    but the business website can only be accessed from the detail view
-    endpoint. I do it with the help of this function.
-    """
-    # resp = await session.get(
-    #
-    # )
-
+async def get_web_address(url: str, session: aiohttp.ClientSession) -> str:
     try:
-        page = requests.get(url).content
-        soup = BeautifulSoup(page, "html.parser")
+        async with session.get(url) as response:
+            soup = BeautifulSoup(await response.text(), "html.parser")
 
-        href = soup.find("a", {"class": "css-1um3nx", "target": "_blank"}).get("href")
-        href = unquote(href)
-        href = re.search("url=(.*)&cachebuster=", href)
+            href = soup.find("a", {"class": "css-1um3nx", "target": "_blank"}).get("href")
+            href = unquote(href)
+            href = re.search("url=(.*)&cachebuster=", href)
 
-        return href.group(1)
+            return href.group(1)
     except AttributeError:
         return "No web address"
 
 
-#
-#
-def get_reviewers_info(url: str) -> list:
-    """
-    According to the terms of the task, need to extract 5 reviews,
-    with the help of the Yelp API, only three are possible:
-    https://docs.developer.yelp.com/reference/v3_business_reviews
-    So I used the BeautifulSoup here
-    """
-    page = requests.get(url).content
-    soup = BeautifulSoup(page, "html.parser")
+async def get_reviewers_info(url: str, session: aiohttp.ClientSession) -> list:
+    async with session.get(url) as response:
+        soup = BeautifulSoup(await response.text(), "html.parser")
 
-    all_items = soup.find_all(
-        "div",
-        {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
-    )[:5]
+        all_items = soup.find_all(
+            "div",
+            {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
+        )[:5]
 
     reviews = []
 
@@ -131,16 +112,28 @@ def get_reviewers_info(url: str) -> list:
     return reviews
 
 
-if __name__ == '__main__':
+async def main():
     business_category = input("Please enter business category: ") or "contractors"
     business_location = input("Please enter business location: ") or "San Francisco, CA"
-    # sample_limit = input("Please enter sample limit: ")
-    start = time.perf_counter()
+
     businesses_dict = get_businesses(business_category, business_location)
-    for business in businesses_dict["businesses"]:
-        business["Business website"] = get_web_address(business["Business yelp url"])
-        business["First five reviews"] = get_reviewers_info(business["Business yelp url"])
+
+    async with aiohttp.ClientSession() as session:
+        for business in businesses_dict["businesses"]:
+            business["Business website"], business["First five reviews"] = await asyncio.gather(
+                get_web_address(
+                    business["Business yelp url"],
+                    session
+                ),
+                get_reviewers_info(
+                    business["Business yelp url"],
+                    session
+                )
+            )
+
     with open("result.json", "w") as result_file:
         json.dump(businesses_dict, result_file, indent=2)
-    end = time.perf_counter()
-    print("Elapsed:", end - start)
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
