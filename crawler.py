@@ -1,9 +1,7 @@
-import asyncio
 import json
 import os
 import re
 
-import aiohttp
 import requests
 
 from bs4 import BeautifulSoup
@@ -59,29 +57,25 @@ def get_businesses(category, location):
     return businesses
 
 
-async def get_web_address(url: str, session: aiohttp.ClientSession) -> str:
+def get_additional_info(url: str) -> list:
+
+    soup = BeautifulSoup(requests.get(url).content, "html.parser")
+
     try:
-        async with session.get(url) as response:
-            soup = BeautifulSoup(await response.text(), "html.parser")
-
-            href = soup.find("a", {"class": "css-1um3nx", "target": "_blank"}).get(
-                "href"
-            )
-            href = unquote(href)
-            href = re.search("url=(.*)&cachebuster=", href)
-
-            return href.group(1)
+        href = soup.find("a", {
+            "class": "css-1um3nx",
+            "target": "_blank"
+        }).get(
+            "href"
+        )
+        href = unquote(href)
+        href = re.search("url=(.*)&cachebuster=", href).group(1)
     except AttributeError:
-        return "No web address"
+        href = "No web address"
 
-
-async def get_reviewers_info(url: str, session: aiohttp.ClientSession) -> list:
-    async with session.get(url) as response:
-        soup = BeautifulSoup(await response.text(), "html.parser")
-
-        all_items = soup.find_all(
-            "div", {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
-        )[:5]
+    all_items = soup.find_all(
+        "div", {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
+    )[:5]
 
     reviews = []
 
@@ -110,25 +104,21 @@ async def get_reviewers_info(url: str, session: aiohttp.ClientSession) -> list:
             }
         )
 
-    return reviews
+    return [href, reviews]
 
 
-async def main():
+def main():
     business_category = input("Please enter business category: ") or "contractors"
     business_location = input("Please enter business location: ") or "San Francisco, CA"
     print("Please, wait...")
 
     businesses_dict = get_businesses(business_category, business_location)
 
-    async with aiohttp.ClientSession() as session:
-        for business in businesses_dict["businesses"]:
-            (
-                business["Business website"],
-                business["First five reviews"],
-            ) = await asyncio.gather(
-                get_web_address(business["Business yelp url"], session),
-                get_reviewers_info(business["Business yelp url"], session),
-            )
+    for business in businesses_dict["businesses"]:
+        parse = get_additional_info(business["Business yelp url"])
+
+        business["Business website"] = parse[0]
+        business["First five reviews"] = parse[1]
 
     with open("result.json", "w") as result_file:
         json.dump(businesses_dict, result_file, indent=2)
@@ -140,4 +130,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
