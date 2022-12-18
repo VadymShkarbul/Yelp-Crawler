@@ -1,101 +1,133 @@
 import json
 import os
 import re
+
 import requests
 
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, quote, unquote
+from urllib.parse import urljoin, unquote, quote
 from dotenv import load_dotenv
 
 load_dotenv()
 
-BASE_URL = "https://api.yelp.com/v3/businesses/"
-HEADERS = {
-    "accept": "application/json",
-    "Authorization": os.getenv("API_KEY")
-}
+BASE_URL = "https://api.yelp.com/"
+SEARCH_PATH = "/v3/businesses/search"
+BUSINESS_PATH = "/v3/businesses/"
+
+HEADERS = {"Authorization": f"Bearer {os.getenv('API_KEY')}"}
 
 
-def get_businesses_info(category: str, location: str, limit: str) -> None:
-    """
-    Using Yelp API Search businesses endpoint I get all the basic information
-    and scrape all the additional information with get_web_address and
-    get_reviewers_info functions.
-    """
-    url = urljoin(
-        BASE_URL,
-        "search?"
-        f"location={quote(location)}"
-        f"&categories={quote(category)}"
-        "&sort_by=best_match"
-        f"&limit={limit}"
-    )
+def get_businesses(category, location):
+    businesses_data = []
 
-    response = requests.get(url, headers=HEADERS)
-    businesses_data = response.json()
+    # It is possible to get 1000 results, but it will take some time...
+    # for offset in range(0, 1000, 50):
+    for offset in range(0, 50, 50):  # Will get 50 results
+        params = {
+            "location": location.replace(" ", "+"),
+            "categories": category.replace(" ", "+"),
+            "limit": 50,
+            "offset": offset,
+        }
 
-    businesses = dict(
-        businesses=list()
-    )
+        response = requests.get(
+            urljoin(BASE_URL, SEARCH_PATH), headers=HEADERS, params=params
+        )
 
-    for business in businesses_data["businesses"]:
-        businesses["businesses"].append({
-            "Business name": business["name"],
-            "Business rating": business["rating"],
-            "Number of reviews": business["review_count"],
-            "Business yelp url": business["url"].split("?adjust")[0],
-            "Business website": get_web_address(business["url"]),
-            "First five reviews": get_reviewers_info(business["url"])
-        })
+        if response.status_code == 200:
+            businesses_data += response.json()["businesses"]
+        elif response.status_code == 400:
+            print("400 Bad Request")
+            break
 
-    with open("result.json", "w") as result_file:
-        json.dump(businesses, result_file, indent=2)
+    businesses = dict(businesses=list())
 
+    for business in businesses_data:
+        businesses["businesses"].append(
+            {
+                "Business name": business["name"],
+                "Business rating": business["rating"],
+                "Number of reviews": business["review_count"],
+                "Business yelp url": business["url"].split("?adjust")[0],
+                "Business website": "",
+                "First five reviews": [],
+            }
+        )
 
-def get_web_address(url: str) -> str:
-    """
-    Yelp API search endpoints return a lot of useful information,
-    but the business website can only be accessed from the detail view
-    endpoint. I do it with the help of this function.
-    """
-    page = requests.get(url).content
-    soup = BeautifulSoup(page, "html.parser")
-    href = soup.find("a", {"class": "css-1um3nx", "target": "_blank"}).get("href")
-    href = unquote(href)
-    href = re.search("url=(.*)&cachebuster=", href)
-    return href.group(1)
+    return businesses
 
 
-def get_reviewers_info(url: str) -> list:
-    """
-    According to the terms of the task, need to extract 5 reviews,
-    with the help of the Yelp API, only three are possible:
-    https://docs.developer.yelp.com/reference/v3_business_reviews
-    So I used the BeautifulSoup here
-    """
-    page = requests.get(url).content
-    soup = BeautifulSoup(page, "html.parser")
+def get_additional_info(url: str) -> list:
 
-    all_items = soup.find_all("div", {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"})
+    soup = BeautifulSoup(requests.get(url).content, "html.parser")
+
+    try:
+        href = soup.find("a", {
+            "class": "css-1um3nx",
+            "target": "_blank"
+        }).get(
+            "href"
+        )
+        href = unquote(href)
+        href = re.search("url=(.*)&cachebuster=", href).group(1)
+    except AttributeError:
+        href = "No web address"
+
+    all_items = soup.find_all(
+        "div", {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
+    )[:5]
 
     reviews = []
 
-    for i in all_items[:5]:
-        name = i.find("a", {"class": "css-1m051bw"}).text
-        reviewer_location = i.find("span", {"class": "css-qgunke"}).text
-        review_date = i.find("span", {"class": "css-chan6m"}).text
+    for item in all_items:
 
-        reviews.append({
-            "Reviewer name": name,
-            "Reviewer location": reviewer_location,
-            "Review date": review_date
-        })
+        try:
+            name = item.find("a", {"class": "css-1m051bw"}).text
+        except AttributeError:
+            name = "No name"
 
-    return reviews
+        try:
+            reviewer_location = item.find("span", {"class": "css-qgunke"}).text
+        except AttributeError:
+            reviewer_location = "No location"
+
+        try:
+            review_date = item.find("span", {"class": "css-chan6m"}).text
+        except AttributeError:
+            review_date = "No date"
+
+        reviews.append(
+            {
+                "Reviewer name": name,
+                "Reviewer location": reviewer_location,
+                "Review date": review_date,
+            }
+        )
+
+    return [href, reviews]
 
 
-if __name__ == '__main__':
-    business_category = input("Please enter business category: ")
-    business_location = input("Please enter business location: ")
-    sample_limit = input("Please enter sample limit: ")
-    get_businesses_info(business_category, business_location, sample_limit)
+def main():
+    business_category = input("Please enter business category: ") or "contractors"
+    business_location = input("Please enter business location: ") or "San Francisco, CA"
+    print("Please, wait...")
+
+    businesses_dict = get_businesses(business_category, business_location)
+
+    for business in businesses_dict["businesses"]:
+        parse = get_additional_info(business["Business yelp url"])
+
+        business["Business website"] = parse[0]
+        business["First five reviews"] = parse[1]
+
+    with open("result.json", "w") as result_file:
+        json.dump(businesses_dict, result_file, indent=2)
+
+    print("Done! Check results:")
+    print(
+        f"file://{quote(os.path.dirname(os.path.abspath('result.json')))}/result.json"
+    )
+
+
+if __name__ == "__main__":
+    main()

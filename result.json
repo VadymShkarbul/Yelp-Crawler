@@ -1,344 +1,1678 @@
 {
   "businesses": [
     {
-      "Business name": "Burger & Lobster - Flatiron NYC",
-      "Business rating": 4.0,
-      "Number of reviews": 5808,
-      "Business yelp url": "https://www.yelp.com/biz/burger-and-lobster-flatiron-nyc-new-york",
-      "Business website": "https://www.burgerandlobster.com/locations/new-york/flatiron/",
+      "Business name": "General SF",
+      "Business rating": 5.0,
+      "Number of reviews": 277,
+      "Business yelp url": "https://www.yelp.com/biz/general-sf-san-francisco-2",
+      "Business website": "http://www.generalsf.com",
       "First five reviews": [
         {
-          "Reviewer name": "Marius C.",
-          "Reviewer location": "Seattle, WA",
-          "Review date": "11/18/2022"
-        },
-        {
-          "Reviewer name": "Jake W.",
-          "Reviewer location": "New York, NY",
-          "Review date": "11/13/2022"
-        },
-        {
-          "Reviewer name": "Andy L.",
-          "Reviewer location": "Manhattan, New York, NY",
-          "Review date": "11/15/2022"
-        },
-        {
-          "Reviewer name": "Natalie C.",
-          "Reviewer location": "Dallas, TX",
-          "Review date": "11/1/2022"
-        },
-        {
-          "Reviewer name": "Victoria W.",
-          "Reviewer location": "New York, NY",
-          "Review date": "10/4/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Shake Shack Madison Square Park",
-      "Business rating": 4.0,
-      "Number of reviews": 5794,
-      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-2",
-      "Business website": "https://shakeshack.olo.com/menu/madison-square-park/",
-      "First five reviews": [
-        {
-          "Reviewer name": "Jairo T.",
-          "Reviewer location": "New York, NY",
-          "Review date": "8/2/2022"
-        },
-        {
-          "Reviewer name": "Samantha D.",
-          "Reviewer location": "New York, NY",
-          "Review date": "10/10/2022"
-        },
-        {
-          "Reviewer name": "Richard A.",
-          "Reviewer location": "Peekskill, NY",
-          "Review date": "9/27/2022"
-        },
-        {
-          "Reviewer name": "Ruwan J.",
-          "Reviewer location": "New York, NY",
-          "Review date": "9/27/2022"
-        },
-        {
-          "Reviewer name": "Candace L.",
-          "Reviewer location": "Los Angeles, CA",
-          "Review date": "8/2/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Junior's Restaurant",
-      "Business rating": 4.0,
-      "Number of reviews": 5410,
-      "Business yelp url": "https://www.yelp.com/biz/juniors-restaurant-new-york-9",
-      "Business website": "https://www.juniorscheesecake.com/blog/restaurants/times-square/",
-      "First five reviews": [
-        {
-          "Reviewer name": "Dorothy C.",
-          "Reviewer location": "NJ, NJ",
-          "Review date": "11/27/2022"
-        },
-        {
-          "Reviewer name": "Cat S.",
-          "Reviewer location": "Bakersfield, CA",
-          "Review date": "12/5/2022"
-        },
-        {
-          "Reviewer name": "Innas I.",
-          "Reviewer location": "Los Angeles, CA",
-          "Review date": "12/4/2022"
-        },
-        {
-          "Reviewer name": "Cher N.",
-          "Reviewer location": "Louisville, KY",
+          "Reviewer name": "Christine K.",
+          "Reviewer location": "Saratoga Springs, NY",
           "Review date": "12/2/2022"
         },
         {
-          "Reviewer name": "Jane R.",
-          "Reviewer location": "San Diego, CA",
-          "Review date": "11/30/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Breakroom",
-      "Business rating": 4.5,
-      "Number of reviews": 1680,
-      "Business yelp url": "https://www.yelp.com/biz/breakroom-new-york",
-      "Business website": "http://breakroomnewyork.mybistro.online",
-      "First five reviews": [
-        {
-          "Reviewer name": "Fern E.",
-          "Reviewer location": "New York, NY",
-          "Review date": "8/12/2022"
+          "Reviewer name": "Victor V.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "10/21/2022"
         },
         {
-          "Reviewer name": "Trish L.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "5/19/2022"
-        },
-        {
-          "Reviewer name": "Samantha S.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "3/21/2022"
-        },
-        {
-          "Reviewer name": "Shawna R.",
-          "Reviewer location": "Manhattan, NY",
-          "Review date": "11/30/2022"
-        },
-        {
-          "Reviewer name": "Tanya H.",
-          "Reviewer location": "New York, NY",
-          "Review date": "12/17/2021"
-        }
-      ]
-    },
-    {
-      "Business name": "Ruby's Cafe",
-      "Business rating": 4.0,
-      "Number of reviews": 1521,
-      "Business yelp url": "https://www.yelp.com/biz/rubys-cafe-new-york-4",
-      "Business website": "http://www.rubyscafe.com",
-      "First five reviews": [
-        {
-          "Reviewer name": "Jamie Y.",
-          "Reviewer location": "Los Angeles, CA",
-          "Review date": "12/1/2022"
-        },
-        {
-          "Reviewer name": "Demora F.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "12/10/2022"
-        },
-        {
-          "Reviewer name": "Regina L.",
-          "Reviewer location": "New York, NY",
-          "Review date": "12/3/2022"
-        },
-        {
-          "Reviewer name": "Sandra L.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "11/11/2022"
-        },
-        {
-          "Reviewer name": "Karina P.",
+          "Reviewer name": "Eric E.",
           "Reviewer location": "San Francisco, CA",
-          "Review date": "10/5/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Shake Shack Theater District",
-      "Business rating": 4.0,
-      "Number of reviews": 3124,
-      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-9",
-      "Business website": "https://shakeshack.olo.com/menu/theater-district/",
-      "First five reviews": [
-        {
-          "Reviewer name": "Troy E.",
-          "Reviewer location": "Honolulu, HI",
-          "Review date": "11/1/2022"
-        },
-        {
-          "Reviewer name": "Peter C.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "11/10/2022"
-        },
-        {
-          "Reviewer name": "Melissa G.",
-          "Reviewer location": "Charleston, SC",
-          "Review date": "7/21/2022"
-        },
-        {
-          "Reviewer name": "Ramona G.",
-          "Reviewer location": "Walnut Creek, CA",
-          "Review date": "5/20/2022"
-        },
-        {
-          "Reviewer name": "Alvin A.",
-          "Reviewer location": "Honolulu, HI",
-          "Review date": "5/19/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Johny's Luncheonette",
-      "Business rating": 4.5,
-      "Number of reviews": 1145,
-      "Business yelp url": "https://www.yelp.com/biz/johnys-luncheonette-new-york",
-      "Business website": "http://johnysluncheonette.com",
-      "First five reviews": [
-        {
-          "Reviewer name": "Spencer N.",
-          "Reviewer location": "North Logan, UT",
-          "Review date": "12/3/2022"
-        },
-        {
-          "Reviewer name": "Patricia M.",
-          "Reviewer location": "San Antonio, TX",
-          "Review date": "12/7/2022"
-        },
-        {
-          "Reviewer name": "Tony B.",
-          "Reviewer location": "Normandy Park, WA",
-          "Review date": "11/1/2022"
-        },
-        {
-          "Reviewer name": "Jennifer Y.",
-          "Reviewer location": "Houston, TX",
-          "Review date": "10/10/2022"
-        },
-        {
-          "Reviewer name": "Stephanie K.",
-          "Reviewer location": "Manhattan, NY",
-          "Review date": "7/31/2022"
-        }
-      ]
-    },
-    {
-      "Business name": "Whiskey Tavern",
-      "Business rating": 4.5,
-      "Number of reviews": 839,
-      "Business yelp url": "https://www.yelp.com/biz/whiskey-tavern-new-york",
-      "Business website": "http://whiskeytavernnyc.com/",
-      "First five reviews": [
-        {
-          "Reviewer name": "Richard H.",
-          "Reviewer location": "CA, CA",
-          "Review date": "10/29/2022"
-        },
-        {
-          "Reviewer name": "Rafik C.",
-          "Reviewer location": "Manhattan, NY",
-          "Review date": "12/7/2022"
-        },
-        {
-          "Reviewer name": "Lauren O.",
-          "Reviewer location": "Omaha, NE",
-          "Review date": "10/4/2022"
-        },
-        {
-          "Reviewer name": "Rafia R.",
-          "Reviewer location": "Washington, DC",
-          "Review date": "6/24/2022"
-        },
-        {
-          "Reviewer name": "Laura S.",
-          "Reviewer location": "Manhattan, NY",
-          "Review date": "11/29/2021"
-        }
-      ]
-    },
-    {
-      "Business name": "Butcher Bar",
-      "Business rating": 4.0,
-      "Number of reviews": 2254,
-      "Business yelp url": "https://www.yelp.com/biz/butcher-bar-astoria-2",
-      "Business website": "http://butcherbar.com/",
-      "First five reviews": [
-        {
-          "Reviewer name": "Rachel K.",
-          "Reviewer location": "New York, NY",
-          "Review date": "8/18/2022"
-        },
-        {
-          "Reviewer name": "Des K.",
-          "Reviewer location": "Brooklyn, NY",
-          "Review date": "12/2/2022"
-        },
-        {
-          "Reviewer name": "Michael S.",
-          "Reviewer location": "New York, NY",
-          "Review date": "9/21/2022"
-        },
-        {
-          "Reviewer name": "Sandra R.",
-          "Reviewer location": "Astoria, Queens, NY",
           "Review date": "12/12/2022"
         },
         {
-          "Reviewer name": "Manny S.",
-          "Reviewer location": "East Elmhurst, NY",
-          "Review date": "12/13/2022"
+          "Reviewer name": "Suein H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/9/2022"
+        },
+        {
+          "Reviewer name": "Rick B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/25/2022"
         }
       ]
     },
     {
-      "Business name": "Shake Shack Upper West Side",
-      "Business rating": 4.0,
-      "Number of reviews": 2446,
-      "Business yelp url": "https://www.yelp.com/biz/shake-shack-new-york-5",
-      "Business website": "https://shakeshack.olo.com/menu/upper-west-side/",
+      "Business name": "Eco Smart Roofer",
+      "Business rating": 5.0,
+      "Number of reviews": 185,
+      "Business yelp url": "https://www.yelp.com/biz/eco-smart-roofer-san-francisco-2",
+      "Business website": "http://www.ecosmartroofer.com",
       "First five reviews": [
         {
-          "Reviewer name": "Emma M.",
-          "Reviewer location": "Manhattan, NY",
-          "Review date": "8/17/2022"
+          "Reviewer name": "Emmanuel C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/7/2022"
         },
         {
-          "Reviewer name": "William I.",
-          "Reviewer location": "Upper West Side, New York, NY",
-          "Review date": "11/11/2022"
+          "Reviewer name": "Yvonne C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/21/2022"
         },
         {
-          "Reviewer name": "Troy E.",
-          "Reviewer location": "Honolulu, HI",
-          "Review date": "6/21/2022"
+          "Reviewer name": "John A.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/30/2021"
         },
         {
-          "Reviewer name": "Giacomo C.",
-          "Reviewer location": "New York, NY",
-          "Review date": "4/16/2022"
+          "Reviewer name": "Lis W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/1/2022"
         },
         {
-          "Reviewer name": "Alex F.",
-          "Reviewer location": "Brooklyn, Brooklyn, NY",
-          "Review date": "11/17/2022"
+          "Reviewer name": "Michael C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/23/2021"
         }
       ]
+    },
+    {
+      "Business name": "Grats Decor Interior Design & Build",
+      "Business rating": 5.0,
+      "Number of reviews": 74,
+      "Business yelp url": "https://www.yelp.com/biz/grats-decor-interior-design-and-build-san-francisco-bay-area-2",
+      "Business website": "http://www.gratsdecor.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Drew P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/8/2022"
+        },
+        {
+          "Reviewer name": "Jennie L.",
+          "Reviewer location": "Brooklyn, NY",
+          "Review date": "8/29/2022"
+        },
+        {
+          "Reviewer name": "Tiena L.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "9/2/2021"
+        },
+        {
+          "Reviewer name": "Gustavo G.",
+          "Reviewer location": "CA, CA",
+          "Review date": "8/3/2022"
+        },
+        {
+          "Reviewer name": "Kristin L.",
+          "Reviewer location": "CA, CA",
+          "Review date": "4/17/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Fonseca Marble & Tile",
+      "Business rating": 5.0,
+      "Number of reviews": 92,
+      "Business yelp url": "https://www.yelp.com/biz/fonseca-marble-and-tile-san-francisco",
+      "Business website": "http://www.fonsecamarbleandtile.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Peter K.",
+          "Reviewer location": "SoMa, San Francisco, CA",
+          "Review date": "12/15/2022"
+        },
+        {
+          "Reviewer name": "Philip D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/5/2022"
+        },
+        {
+          "Reviewer name": "Ammiel O.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/27/2022"
+        },
+        {
+          "Reviewer name": "Alex S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/15/2021"
+        },
+        {
+          "Reviewer name": "Mike M.",
+          "Reviewer location": "Potrero Hill, San Francisco, CA",
+          "Review date": "10/4/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "It Tile and Grout Master",
+      "Business rating": 5.0,
+      "Number of reviews": 68,
+      "Business yelp url": "https://www.yelp.com/biz/it-tile-and-grout-master-san-francisco",
+      "Business website": "https://www.ittileandgroutmaster.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Roxie B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/30/2022"
+        },
+        {
+          "Reviewer name": "Liana T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/4/2021"
+        },
+        {
+          "Reviewer name": "Kristin H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/19/2022"
+        },
+        {
+          "Reviewer name": "Stuart Z.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/25/2022"
+        },
+        {
+          "Reviewer name": "Ally S.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "8/25/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "M & L Construction",
+      "Business rating": 4.5,
+      "Number of reviews": 118,
+      "Business yelp url": "https://www.yelp.com/biz/m-and-l-construction-san-francisco",
+      "Business website": "http://www.mandlconstruction.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Bud R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/23/2022"
+        },
+        {
+          "Reviewer name": "J L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/9/2022"
+        },
+        {
+          "Reviewer name": "Kaymaria D.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "11/18/2022"
+        },
+        {
+          "Reviewer name": "Ian T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/2/2022"
+        },
+        {
+          "Reviewer name": "erin s.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/11/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Dufficy Fine Carpentry And Design",
+      "Business rating": 5.0,
+      "Number of reviews": 71,
+      "Business yelp url": "https://www.yelp.com/biz/dufficy-fine-carpentry-and-design-san-francisco-2",
+      "Business website": "http://www.dufficy.blogspot.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Chris O.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/3/2019"
+        },
+        {
+          "Reviewer name": "D R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/12/2022"
+        },
+        {
+          "Reviewer name": "Nathan L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/10/2021"
+        },
+        {
+          "Reviewer name": "Hannah L.",
+          "Reviewer location": "Wallingford, CT",
+          "Review date": "12/1/2021"
+        },
+        {
+          "Reviewer name": "Lynda H.",
+          "Reviewer location": "Palo Alto, CA",
+          "Review date": "2/1/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Edenavow Construction & Design",
+      "Business rating": 5.0,
+      "Number of reviews": 63,
+      "Business yelp url": "https://www.yelp.com/biz/edenavow-construction-and-design-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Fred B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/17/2022"
+        },
+        {
+          "Reviewer name": "Gigi G.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/6/2022"
+        },
+        {
+          "Reviewer name": "Ilan B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/26/2022"
+        },
+        {
+          "Reviewer name": "Ana Maria P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/23/2022"
+        },
+        {
+          "Reviewer name": "Ryan K.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/14/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "Prosper Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 73,
+      "Business yelp url": "https://www.yelp.com/biz/prosper-construction-san-francisco",
+      "Business website": "https://www.prosperdevelopment.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Penguin ..",
+          "Reviewer location": "San Jose, CA",
+          "Review date": "11/8/2022"
+        },
+        {
+          "Reviewer name": "J L.",
+          "Reviewer location": "Washington, DC",
+          "Review date": "11/7/2022"
+        },
+        {
+          "Reviewer name": "Lester T.",
+          "Reviewer location": "San Pablo, CA",
+          "Review date": "10/15/2022"
+        },
+        {
+          "Reviewer name": "Yanplayz shorts F.",
+          "Reviewer location": "Encino, San Fernando Valley, CA",
+          "Review date": "12/15/2022"
+        },
+        {
+          "Reviewer name": "Vivien H.",
+          "Reviewer location": "Lower Haight, San Francisco, CA",
+          "Review date": "8/8/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Blue Moon Closet Systems",
+      "Business rating": 4.5,
+      "Number of reviews": 80,
+      "Business yelp url": "https://www.yelp.com/biz/blue-moon-closet-systems-san-francisco",
+      "Business website": "http://www.bluemoonclosets.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Vivien L.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "8/11/2022"
+        },
+        {
+          "Reviewer name": "Aaron W.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "4/19/2022"
+        },
+        {
+          "Reviewer name": "Veronica S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/16/2021"
+        },
+        {
+          "Reviewer name": "Mary Ann M.",
+          "Reviewer location": "Oakley, CA",
+          "Review date": "3/13/2022"
+        },
+        {
+          "Reviewer name": "Sean L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/21/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Magnolia Electric",
+      "Business rating": 4.5,
+      "Number of reviews": 82,
+      "Business yelp url": "https://www.yelp.com/biz/magnolia-electric-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "D W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/13/2022"
+        },
+        {
+          "Reviewer name": "Victor M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/14/2018"
+        },
+        {
+          "Reviewer name": "Ukin B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/8/2017"
+        },
+        {
+          "Reviewer name": "Danielle E.",
+          "Reviewer location": "San Rafael, CA",
+          "Review date": "2/15/2020"
+        },
+        {
+          "Reviewer name": "Vijay R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/5/2017"
+        }
+      ]
+    },
+    {
+      "Business name": "Rainbow Terrazzo",
+      "Business rating": 5.0,
+      "Number of reviews": 51,
+      "Business yelp url": "https://www.yelp.com/biz/rainbow-terrazzo-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Linda T.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "3/26/2022"
+        },
+        {
+          "Reviewer name": "Louie C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/21/2022"
+        },
+        {
+          "Reviewer name": "Ann B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/6/2020"
+        },
+        {
+          "Reviewer name": "Cristina S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/29/2020"
+        },
+        {
+          "Reviewer name": "Greg B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/22/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "Dragon Werks",
+      "Business rating": 5.0,
+      "Number of reviews": 60,
+      "Business yelp url": "https://www.yelp.com/biz/dragon-werks-san-francisco-8",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Naomi C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/30/2020"
+        },
+        {
+          "Reviewer name": "Steve G.",
+          "Reviewer location": "Alameda, CA",
+          "Review date": "6/10/2017"
+        },
+        {
+          "Reviewer name": "Al Y.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/27/2017"
+        },
+        {
+          "Reviewer name": "Isabella F.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/17/2016"
+        },
+        {
+          "Reviewer name": "Bartlomiej S.",
+          "Reviewer location": "Fairfax, CA",
+          "Review date": "1/21/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "The Shower Pan King",
+      "Business rating": 5.0,
+      "Number of reviews": 49,
+      "Business yelp url": "https://www.yelp.com/biz/the-shower-pan-king-san-francisco",
+      "Business website": "http://www.showerpanking.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Bill A.",
+          "Reviewer location": "CA, CA",
+          "Review date": "11/3/2022"
+        },
+        {
+          "Reviewer name": "Giraldo V.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/19/2022"
+        },
+        {
+          "Reviewer name": "Daniel E.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/30/2021"
+        },
+        {
+          "Reviewer name": "Janet F.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/22/2022"
+        },
+        {
+          "Reviewer name": "Michelle R.",
+          "Reviewer location": "Union City, CA",
+          "Review date": "10/7/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Architect Andrew Morrall",
+      "Business rating": 5.0,
+      "Number of reviews": 39,
+      "Business yelp url": "https://www.yelp.com/biz/architect-andrew-morrall-san-francisco-2",
+      "Business website": "http://www.andrewmorrallarchitect.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Jonathan F.",
+          "Reviewer location": "Redwood City, CA",
+          "Review date": "11/10/2022"
+        },
+        {
+          "Reviewer name": "Ryan P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/14/2022"
+        },
+        {
+          "Reviewer name": "J. Y.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/15/2021"
+        },
+        {
+          "Reviewer name": "Anja T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/4/2020"
+        },
+        {
+          "Reviewer name": "Dw T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/28/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Aaron Gordon Construction",
+      "Business rating": 4.5,
+      "Number of reviews": 82,
+      "Business yelp url": "https://www.yelp.com/biz/aaron-gordon-construction-san-francisco-4",
+      "Business website": "http://agcsf.com/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Michael C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/1/2018"
+        },
+        {
+          "Reviewer name": "Philip R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/2/2021"
+        },
+        {
+          "Reviewer name": "S. G.",
+          "Reviewer location": "Palo Alto, CA",
+          "Review date": "5/25/2021"
+        },
+        {
+          "Reviewer name": "Jennifer D.",
+          "Reviewer location": "San Carlos, CA",
+          "Review date": "9/6/2021"
+        },
+        {
+          "Reviewer name": "Ronald P.",
+          "Reviewer location": "Seattle, WA",
+          "Review date": "10/7/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "Amador General Construction",
+      "Business rating": 4.5,
+      "Number of reviews": 61,
+      "Business yelp url": "https://www.yelp.com/biz/amador-general-construction-san-francisco-3",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Lorraine M.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "12/6/2020"
+        },
+        {
+          "Reviewer name": "Ashley M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/15/2022"
+        },
+        {
+          "Reviewer name": "Ida N.",
+          "Reviewer location": "Millbrae, CA",
+          "Review date": "2/4/2022"
+        },
+        {
+          "Reviewer name": "Steven M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/4/2022"
+        },
+        {
+          "Reviewer name": "Sue M.",
+          "Reviewer location": "South San Francisco, CA",
+          "Review date": "11/13/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "A1 Drywall",
+      "Business rating": 4.5,
+      "Number of reviews": 61,
+      "Business yelp url": "https://www.yelp.com/biz/a1-drywall-san-francisco",
+      "Business website": "http://www.a1drywall.net",
+      "First five reviews": [
+        {
+          "Reviewer name": "Louis D.",
+          "Reviewer location": "San Diego, CA",
+          "Review date": "1/27/2022"
+        },
+        {
+          "Reviewer name": "Ell B.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "10/6/2021"
+        },
+        {
+          "Reviewer name": "Lara O.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/2/2021"
+        },
+        {
+          "Reviewer name": "Scout F.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/30/2022"
+        },
+        {
+          "Reviewer name": "Anika E.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "3/18/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Rick Brown Electrical Contractor",
+      "Business rating": 5.0,
+      "Number of reviews": 53,
+      "Business yelp url": "https://www.yelp.com/biz/rick-brown-electrical-contractor-san-francisco-2",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Michelle p.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/15/2022"
+        },
+        {
+          "Reviewer name": "Andria B.",
+          "Reviewer location": "Lafayette, CA",
+          "Review date": "10/13/2022"
+        },
+        {
+          "Reviewer name": "H M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/10/2017"
+        },
+        {
+          "Reviewer name": "Luna G.",
+          "Reviewer location": "Trabuco Canyon, CA",
+          "Review date": "9/30/2020"
+        },
+        {
+          "Reviewer name": "Michael P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/11/2016"
+        }
+      ]
+    },
+    {
+      "Business name": "A J O Group",
+      "Business rating": 5.0,
+      "Number of reviews": 42,
+      "Business yelp url": "https://www.yelp.com/biz/a-j-o-group-san-francisco-3",
+      "Business website": "http://www.ajogroup.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Irene C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/14/2022"
+        },
+        {
+          "Reviewer name": "Nick M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/2/2022"
+        },
+        {
+          "Reviewer name": "Edward C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/29/2021"
+        },
+        {
+          "Reviewer name": "Jake S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/27/2019"
+        },
+        {
+          "Reviewer name": "George M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/9/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Value Electrical Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 48,
+      "Business yelp url": "https://www.yelp.com/biz/value-electrical-construction-san-francisco-2",
+      "Business website": "http://www.valuelectric.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Paul W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/27/2022"
+        },
+        {
+          "Reviewer name": "Laurie O.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/8/2022"
+        },
+        {
+          "Reviewer name": "Mark W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/19/2020"
+        },
+        {
+          "Reviewer name": "Ashley K.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/9/2020"
+        },
+        {
+          "Reviewer name": "Nick P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/28/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Valex Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 49,
+      "Business yelp url": "https://www.yelp.com/biz/valex-construction-san-francisco",
+      "Business website": "http://www.valexconstruction.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Olya S.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "1/16/2021"
+        },
+        {
+          "Reviewer name": "Robelle D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/16/2022"
+        },
+        {
+          "Reviewer name": "Judith K.",
+          "Reviewer location": "Pacifica, CA",
+          "Review date": "3/27/2021"
+        },
+        {
+          "Reviewer name": "Lily R.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "12/21/2021"
+        },
+        {
+          "Reviewer name": "Sid S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/21/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "Michael Heavey Construction",
+      "Business rating": 4.5,
+      "Number of reviews": 94,
+      "Business yelp url": "https://www.yelp.com/biz/michael-heavey-construction-san-francisco-4",
+      "Business website": "https://www.heaveyconstruction.com/contact.html",
+      "First five reviews": [
+        {
+          "Reviewer name": "Jonathan M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/23/2021"
+        },
+        {
+          "Reviewer name": "Christopher V.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/19/2021"
+        },
+        {
+          "Reviewer name": "Kennedy Q.",
+          "Reviewer location": "Redwood City, CA",
+          "Review date": "6/19/2021"
+        },
+        {
+          "Reviewer name": "S W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/25/2022"
+        },
+        {
+          "Reviewer name": "Joy M.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "2/9/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Floorcraft - Home Improvement Store",
+      "Business rating": 3.5,
+      "Number of reviews": 307,
+      "Business yelp url": "https://www.yelp.com/biz/floorcraft-carpet-one-floor-and-home-san-francisco-6",
+      "Business website": "https://www.floorcraftcarpet1sanfrancisco.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Patrick C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/30/2022"
+        },
+        {
+          "Reviewer name": "Lien C.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "9/29/2022"
+        },
+        {
+          "Reviewer name": "Sam H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/7/2022"
+        },
+        {
+          "Reviewer name": "Dr. Billy B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/24/2022"
+        },
+        {
+          "Reviewer name": "S. P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/7/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "ATTIC EXPRESS",
+      "Business rating": 5.0,
+      "Number of reviews": 33,
+      "Business yelp url": "https://www.yelp.com/biz/attic-express-san-francisco",
+      "Business website": "http://attic-express.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "W S.",
+          "Reviewer location": "Mountain View, CA",
+          "Review date": "11/15/2022"
+        },
+        {
+          "Reviewer name": "Alex D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/18/2022"
+        },
+        {
+          "Reviewer name": "Steven F.",
+          "Reviewer location": "South Lake Tahoe, CA",
+          "Review date": "12/10/2022"
+        },
+        {
+          "Reviewer name": "Susana D.",
+          "Reviewer location": "Castro Valley, CA",
+          "Review date": "8/6/2022"
+        },
+        {
+          "Reviewer name": "Qilong C.",
+          "Reviewer location": "South Los Angeles, Los Angeles, CA",
+          "Review date": "2/16/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Discover Plumbing and Rooter",
+      "Business rating": 4.5,
+      "Number of reviews": 51,
+      "Business yelp url": "https://www.yelp.com/biz/discover-plumbing-and-rooter-san-francisco-3",
+      "Business website": "https://discoverplumbingandrooter.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Donna S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/24/2022"
+        },
+        {
+          "Reviewer name": "Celeste D.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "10/13/2022"
+        },
+        {
+          "Reviewer name": "Justin M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/7/2022"
+        },
+        {
+          "Reviewer name": "Alma T.",
+          "Reviewer location": "Honolulu, HI",
+          "Review date": "5/12/2022"
+        },
+        {
+          "Reviewer name": "Josh R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/18/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Edri Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 29,
+      "Business yelp url": "https://www.yelp.com/biz/edri-construction-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Danielle S.",
+          "Reviewer location": "Canoga Park, Canoga Park, CA",
+          "Review date": "7/18/2022"
+        },
+        {
+          "Reviewer name": "Wanetta D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/14/2022"
+        },
+        {
+          "Reviewer name": "Mahru E.",
+          "Reviewer location": "Oakland, CA",
+          "Review date": "7/9/2022"
+        },
+        {
+          "Reviewer name": "Jose C.",
+          "Reviewer location": "Union Square, San Francisco, CA",
+          "Review date": "4/1/2022"
+        },
+        {
+          "Reviewer name": "Eddie K.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "6/15/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "GreenTech Developers",
+      "Business rating": 5.0,
+      "Number of reviews": 44,
+      "Business yelp url": "https://www.yelp.com/biz/greentech-developers-san-francisco-8",
+      "Business website": "https://greentechdev.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Elena B.",
+          "Reviewer location": "Seattle, WA",
+          "Review date": "7/28/2019"
+        },
+        {
+          "Reviewer name": "Kateryna F.",
+          "Reviewer location": "San Diego, CA",
+          "Review date": "5/27/2019"
+        },
+        {
+          "Reviewer name": "Kristy L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/7/2019"
+        },
+        {
+          "Reviewer name": "Jinqi H.",
+          "Reviewer location": "San Carlos, CA",
+          "Review date": "7/8/2020"
+        },
+        {
+          "Reviewer name": "Jonathan R.",
+          "Reviewer location": "Millbrae, CA",
+          "Review date": "7/16/2019"
+        }
+      ]
+    },
+    {
+      "Business name": "AAA Construction & Design",
+      "Business rating": 5.0,
+      "Number of reviews": 22,
+      "Business yelp url": "https://www.yelp.com/biz/aaa-construction-and-design-san-francisco",
+      "Business website": "http://aaaconstructsf.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Tracie P.",
+          "Reviewer location": "San Rafael, CA",
+          "Review date": "10/6/2022"
+        },
+        {
+          "Reviewer name": "Bueno S.",
+          "Reviewer location": "No location",
+          "Review date": "5/13/2021"
+        },
+        {
+          "Reviewer name": "Cliff C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/19/2018"
+        },
+        {
+          "Reviewer name": "Tom D.",
+          "Reviewer location": "Mill Valley, CA",
+          "Review date": "10/22/2018"
+        },
+        {
+          "Reviewer name": "Nicky T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/11/2017"
+        }
+      ]
+    },
+    {
+      "Business name": "7 Hills",
+      "Business rating": 4.5,
+      "Number of reviews": 38,
+      "Business yelp url": "https://www.yelp.com/biz/7-hills-san-francisco-2",
+      "Business website": "http://7hills-sf.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Yvette C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/7/2014"
+        },
+        {
+          "Reviewer name": "Anna T.",
+          "Reviewer location": "San Diego, CA",
+          "Review date": "7/5/2021"
+        },
+        {
+          "Reviewer name": "Wesley G.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "9/9/2019"
+        },
+        {
+          "Reviewer name": "Devon M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/24/2015"
+        },
+        {
+          "Reviewer name": "Gina G.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/11/2015"
+        }
+      ]
+    },
+    {
+      "Business name": "P Langan Construction",
+      "Business rating": 4.5,
+      "Number of reviews": 61,
+      "Business yelp url": "https://www.yelp.com/biz/p-langan-construction-san-francisco",
+      "Business website": "http://www.planganconstruction.webs.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "T T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/20/2022"
+        },
+        {
+          "Reviewer name": "Karen S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/23/2022"
+        },
+        {
+          "Reviewer name": "Janice S.",
+          "Reviewer location": "New England",
+          "Review date": "5/7/2021"
+        },
+        {
+          "Reviewer name": "Christine S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/14/2022"
+        },
+        {
+          "Reviewer name": "Yair P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/14/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "REF Corp",
+      "Business rating": 4.5,
+      "Number of reviews": 47,
+      "Business yelp url": "https://www.yelp.com/biz/ref-corp-san-francisco-3",
+      "Business website": "http://www.refcorp.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Peter C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/19/2021"
+        },
+        {
+          "Reviewer name": "Michael M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/19/2022"
+        },
+        {
+          "Reviewer name": "Sheila H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/26/2021"
+        },
+        {
+          "Reviewer name": "Cathy Q.",
+          "Reviewer location": "Belmont, CA",
+          "Review date": "1/20/2022"
+        },
+        {
+          "Reviewer name": "Scott R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/3/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Benjamin Shaw",
+      "Business rating": 5.0,
+      "Number of reviews": 30,
+      "Business yelp url": "https://www.yelp.com/biz/benjamin-shaw-san-francisco",
+      "Business website": "http://benjaminshawgeneralcontr.homestead.com/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Carlina H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/5/2022"
+        },
+        {
+          "Reviewer name": "bill k.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/23/2021"
+        },
+        {
+          "Reviewer name": "DeeDee S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/22/2018"
+        },
+        {
+          "Reviewer name": "Nora W.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/18/2019"
+        },
+        {
+          "Reviewer name": "Christine F.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/13/2019"
+        }
+      ]
+    },
+    {
+      "Business name": "Windmill Design and Build Group Corp.",
+      "Business rating": 5.0,
+      "Number of reviews": 23,
+      "Business yelp url": "https://www.yelp.com/biz/windmill-design-and-build-group-corp-san-francisco-3",
+      "Business website": "http://www.windmilldesignandbuild.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Nikolai V.",
+          "Reviewer location": "Manhattan, NY",
+          "Review date": "5/17/2019"
+        },
+        {
+          "Reviewer name": "Donald M.",
+          "Reviewer location": "Alameda, CA",
+          "Review date": "4/3/2022"
+        },
+        {
+          "Reviewer name": "Stacey M.",
+          "Reviewer location": "Upper East Side, Manhattan, NY",
+          "Review date": "5/17/2018"
+        },
+        {
+          "Reviewer name": "Glenn S.",
+          "Reviewer location": "New York, NY",
+          "Review date": "4/10/2018"
+        },
+        {
+          "Reviewer name": "Nicole F.",
+          "Reviewer location": "Saugerties, NY",
+          "Review date": "9/9/2018"
+        }
+      ]
+    },
+    {
+      "Business name": "Carpet Contractors",
+      "Business rating": 4.0,
+      "Number of reviews": 77,
+      "Business yelp url": "https://www.yelp.com/biz/carpet-contractors-san-francisco-3",
+      "Business website": "http://www.carpetcontractors.net",
+      "First five reviews": [
+        {
+          "Reviewer name": "Lucy K.",
+          "Reviewer location": "Pacific Heights, San Francisco, CA",
+          "Review date": "8/26/2022"
+        },
+        {
+          "Reviewer name": "Alexander C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/12/2022"
+        },
+        {
+          "Reviewer name": "eric s.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/8/2022"
+        },
+        {
+          "Reviewer name": "T J.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/17/2022"
+        },
+        {
+          "Reviewer name": "K C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/7/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "AVS Electric",
+      "Business rating": 5.0,
+      "Number of reviews": 27,
+      "Business yelp url": "https://www.yelp.com/biz/avs-electric-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Diane L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/17/2017"
+        },
+        {
+          "Reviewer name": "ghia j.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/5/2021"
+        },
+        {
+          "Reviewer name": "Marc E.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/23/2020"
+        },
+        {
+          "Reviewer name": "John A.",
+          "Reviewer location": "San Anselmo, CA",
+          "Review date": "4/10/2020"
+        },
+        {
+          "Reviewer name": "Nancy D.",
+          "Reviewer location": "Casselberry, FL",
+          "Review date": "4/22/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "ABC Maintenance & Handyman Services",
+      "Business rating": 5.0,
+      "Number of reviews": 21,
+      "Business yelp url": "https://www.yelp.com/biz/abc-maintenance-and-handyman-services-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Susan T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/3/2015"
+        },
+        {
+          "Reviewer name": "Laura T.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/22/2020"
+        },
+        {
+          "Reviewer name": "carol s.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/12/2017"
+        },
+        {
+          "Reviewer name": "Nicole P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/24/2018"
+        },
+        {
+          "Reviewer name": "Andrea V.",
+          "Reviewer location": "Vacaville, CA",
+          "Review date": "1/6/2019"
+        }
+      ]
+    },
+    {
+      "Business name": "Three Kings Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 24,
+      "Business yelp url": "https://www.yelp.com/biz/three-kings-construction-san-francisco",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Julia G.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/25/2022"
+        },
+        {
+          "Reviewer name": "Dipesh K.",
+          "Reviewer location": "San Mateo, CA",
+          "Review date": "12/11/2022"
+        },
+        {
+          "Reviewer name": "Suz T.",
+          "Reviewer location": "Berkeley, CA",
+          "Review date": "12/27/2021"
+        },
+        {
+          "Reviewer name": "Brooke S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/29/2021"
+        },
+        {
+          "Reviewer name": "Angelia H.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/27/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Mullan Enterprises",
+      "Business rating": 5.0,
+      "Number of reviews": 22,
+      "Business yelp url": "https://www.yelp.com/biz/mullan-enterprises-san-francisco-3",
+      "Business website": "http://mullanenterprisesinc.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Kim K.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/10/2022"
+        },
+        {
+          "Reviewer name": "Ellen P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/4/2022"
+        },
+        {
+          "Reviewer name": "Lauren L.",
+          "Reviewer location": "Dexter, MI",
+          "Review date": "5/20/2022"
+        },
+        {
+          "Reviewer name": "Kirsten M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/19/2022"
+        },
+        {
+          "Reviewer name": "Tara M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/23/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "SFT Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 28,
+      "Business yelp url": "https://www.yelp.com/biz/sft-construction-san-francisco-7",
+      "Business website": "http://www.sft-construction.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Sarah M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/5/2022"
+        },
+        {
+          "Reviewer name": "Christopher C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/26/2022"
+        },
+        {
+          "Reviewer name": "Ken W.",
+          "Reviewer location": "Saratoga, CA",
+          "Review date": "11/23/2022"
+        },
+        {
+          "Reviewer name": "Falah S.",
+          "Reviewer location": "South San Francisco, CA",
+          "Review date": "8/18/2022"
+        },
+        {
+          "Reviewer name": "Brian B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/3/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Eco Smart Builder",
+      "Business rating": 5.0,
+      "Number of reviews": 20,
+      "Business yelp url": "https://www.yelp.com/biz/eco-smart-builder-san-francisco-3",
+      "Business website": "http://www.ecosmartbuilder.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Robyn E.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/7/2019"
+        },
+        {
+          "Reviewer name": "Jamie X.",
+          "Reviewer location": "Daly City, CA",
+          "Review date": "3/30/2021"
+        },
+        {
+          "Reviewer name": "Ian D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/12/2018"
+        },
+        {
+          "Reviewer name": "Mike D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/8/2018"
+        },
+        {
+          "Reviewer name": "Sahra M.",
+          "Reviewer location": "San Leandro, CA",
+          "Review date": "3/22/2018"
+        }
+      ]
+    },
+    {
+      "Business name": "Outerlands Design",
+      "Business rating": 5.0,
+      "Number of reviews": 35,
+      "Business yelp url": "https://www.yelp.com/biz/outerlands-design-san-francisco",
+      "Business website": "http://www.outerlandsdesign.com/",
+      "First five reviews": [
+        {
+          "Reviewer name": "Geoffrey K.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "1/27/2018"
+        },
+        {
+          "Reviewer name": "Doug S.",
+          "Reviewer location": "San Fernando Valley, CA",
+          "Review date": "10/18/2020"
+        },
+        {
+          "Reviewer name": "W P.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/23/2020"
+        },
+        {
+          "Reviewer name": "Donna S.",
+          "Reviewer location": "Burlingame, CA",
+          "Review date": "3/16/2016"
+        },
+        {
+          "Reviewer name": "Crazy Food J.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "5/12/2016"
+        }
+      ]
+    },
+    {
+      "Business name": "Foundations R Us",
+      "Business rating": 5.0,
+      "Number of reviews": 19,
+      "Business yelp url": "https://www.yelp.com/biz/foundations-r-us-san-francisco-6",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Cuong N.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/29/2022"
+        },
+        {
+          "Reviewer name": "Yan Z.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/16/2022"
+        },
+        {
+          "Reviewer name": "Yvonne C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "4/6/2022"
+        },
+        {
+          "Reviewer name": "Mike S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/26/2021"
+        },
+        {
+          "Reviewer name": "Waraporn A.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/22/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "West Coast Sound Solutions",
+      "Business rating": 4.5,
+      "Number of reviews": 53,
+      "Business yelp url": "https://www.yelp.com/biz/west-coast-sound-solutions-san-francisco-2",
+      "Business website": "http://westcoastsoundsolutions.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Tom F.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/24/2022"
+        },
+        {
+          "Reviewer name": "David B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/8/2022"
+        },
+        {
+          "Reviewer name": "A V.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/4/2022"
+        },
+        {
+          "Reviewer name": "vikas M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "7/20/2022"
+        },
+        {
+          "Reviewer name": "Karthik L.",
+          "Reviewer location": "Sunnyvale, CA",
+          "Review date": "8/22/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Mizen Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 22,
+      "Business yelp url": "https://www.yelp.com/biz/mizen-construction-san-francisco-3",
+      "Business website": "http://mizenconstruction.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Jan C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "6/30/2020"
+        },
+        {
+          "Reviewer name": "Dragonfly L.",
+          "Reviewer location": "Mountain View, CA",
+          "Review date": "4/17/2022"
+        },
+        {
+          "Reviewer name": "Brian N.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "8/26/2021"
+        },
+        {
+          "Reviewer name": "Ingrid D.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/27/2018"
+        },
+        {
+          "Reviewer name": "Molly S.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "9/26/2017"
+        }
+      ]
+    },
+    {
+      "Business name": "Seismic Retrofitters",
+      "Business rating": 4.5,
+      "Number of reviews": 53,
+      "Business yelp url": "https://www.yelp.com/biz/seismic-retrofitters-san-francisco-2",
+      "Business website": "http://www.quakeprep.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Clifford S.",
+          "Reviewer location": "Pittsburg, CA",
+          "Review date": "11/18/2022"
+        },
+        {
+          "Reviewer name": "Elad N.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "3/8/2022"
+        },
+        {
+          "Reviewer name": "Laura L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/20/2022"
+        },
+        {
+          "Reviewer name": "Elena L.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/16/2022"
+        },
+        {
+          "Reviewer name": "Laura B.",
+          "Reviewer location": "Washington, DC",
+          "Review date": "5/24/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Maven Maintenance",
+      "Business rating": 5.0,
+      "Number of reviews": 30,
+      "Business yelp url": "https://www.yelp.com/biz/maven-maintenance-san-francisco-3",
+      "Business website": "http://www.mavenmaintenance.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Chris B.",
+          "Reviewer location": "New York, NY",
+          "Review date": "11/30/2020"
+        },
+        {
+          "Reviewer name": "Wayne M.",
+          "Reviewer location": "Mountain View, CA",
+          "Review date": "2/18/2022"
+        },
+        {
+          "Reviewer name": "Scott M.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "12/1/2020"
+        },
+        {
+          "Reviewer name": "Richard R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "3/17/2021"
+        },
+        {
+          "Reviewer name": "David C.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "2/5/2020"
+        }
+      ]
+    },
+    {
+      "Business name": "Perez Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 22,
+      "Business yelp url": "https://www.yelp.com/biz/perez-construction-san-francisco-3",
+      "Business website": "http://www.perezconstructionsf.com",
+      "First five reviews": [
+        {
+          "Reviewer name": "Mei C.",
+          "Reviewer location": "San Pedro, CA",
+          "Review date": "12/7/2022"
+        },
+        {
+          "Reviewer name": "Chris B.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/24/2022"
+        },
+        {
+          "Reviewer name": "Amelia E.",
+          "Reviewer location": "Cape Girardeau, MO",
+          "Review date": "12/6/2022"
+        },
+        {
+          "Reviewer name": "Rebecca G.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "10/2/2022"
+        },
+        {
+          "Reviewer name": "Andrew S.",
+          "Reviewer location": "Los Angeles, CA",
+          "Review date": "9/28/2021"
+        }
+      ]
+    },
+    {
+      "Business name": "Mountain Top Construction",
+      "Business rating": 5.0,
+      "Number of reviews": 24,
+      "Business yelp url": "https://www.yelp.com/biz/mountain-top-construction-san-francisco-2",
+      "Business website": "No web address",
+      "First five reviews": [
+        {
+          "Reviewer name": "Todd R.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/2/2022"
+        },
+        {
+          "Reviewer name": "Gabriela O.",
+          "Reviewer location": "Novato, CA",
+          "Review date": "1/20/2022"
+        },
+        {
+          "Reviewer name": "Edgar G.",
+          "Reviewer location": "Berkeley, CA",
+          "Review date": "8/13/2021"
+        },
+        {
+          "Reviewer name": "Jennifer N.",
+          "Reviewer location": "San Francisco, CA",
+          "Review date": "11/3/2022"
+        },
+        {
+          "Reviewer name": "Thamyres R.",
+          "Reviewer location": "San Leandro, CA",
+          "Review date": "4/29/2022"
+        }
+      ]
+    },
+    {
+      "Business name": "Wise Stage of Remodeling",
+      "Business rating": 5.0,
+      "Number of reviews": 23,
+      "Business yelp url": "https://www.yelp.com/biz/wise-stage-of-remodeling-san-francisco-9",
+      "Business website": "No web address",
+      "First five reviews": []
     }
   ]
 }
