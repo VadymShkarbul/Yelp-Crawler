@@ -7,7 +7,7 @@
 * The crawler should be given category of business and location as an input.
 * Returns a result.json file, representing a business from the given search results
 
-## result.json file will look like this:
+## JSON file will look like this:
 
 <img width="751" alt="Screenshot 2022-12-17 at 16 51 25" src="https://user-images.githubusercontent.com/111114742/208247757-c0bac924-6581-4a0e-bcd6-c7daa819ebaf.png">
 
