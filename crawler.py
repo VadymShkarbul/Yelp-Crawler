@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 
 import requests
 
@@ -31,6 +32,12 @@ REVIEW_CSS_CLASS = "review__09f24__oHr9V border-color--default__09f24__NPAKY"
 REVIEWER_NAME_CSS_CLASS = "css-1m051bw"
 REVIEWER_LOCATION_CSS_CLASS = "css-qgunke"
 REVIEW_DATE_CSS_CLASS = "css-chan6m"
+
+CLASSES_MAP = {
+    REVIEWER_NAME_CSS_CLASS: 'name',
+    REVIEWER_LOCATION_CSS_CLASS: 'location',
+    REVIEW_DATE_CSS_CLASS: 'date',
+}
 
 
 def get_businesses(category, location):
@@ -93,29 +100,25 @@ def get_additional_info(url: str) -> list:
     reviews = []
 
     for item in all_items:
+        fields_to_check = [
+            REVIEWER_NAME_CSS_CLASS,
+            REVIEWER_LOCATION_CSS_CLASS,
+            REVIEW_DATE_CSS_CLASS
+        ]
 
-        try:
-            name = item.find("a", {"class": REVIEWER_NAME_CSS_CLASS}).text
-        except AttributeError:
-            name = "No name"
+        final_obj = {}
 
-        try:
-            reviewer_location = item.find("span", {"class": REVIEWER_LOCATION_CSS_CLASS}).text
-        except AttributeError:
-            reviewer_location = "No location"
+        for field in fields_to_check:
 
-        try:
-            review_date = item.find("span", {"class": REVIEW_DATE_CSS_CLASS}).text
-        except AttributeError:
-            review_date = "No date"
+            obj = item.find(["a", "span"], {"class": field})
+            if obj is not None:
+                value = obj.text
+            else:
+                value = f'No {CLASSES_MAP[field]}'
 
-        reviews.append(
-            {
-                "Reviewer name": name,
-                "Reviewer location": reviewer_location,
-                "Review date": review_date,
-            }
-        )
+            final_obj[f"Reviewer {CLASSES_MAP[field]}"] = value
+
+        reviews.append(final_obj)
 
     return [href, reviews]
 
@@ -143,4 +146,8 @@ def main():
 
 
 if __name__ == "__main__":
+    start = time.perf_counter()
     main()
+    end = time.perf_counter()
+
+    print("Elapsed:", end - start)
