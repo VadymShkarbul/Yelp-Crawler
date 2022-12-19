@@ -16,13 +16,27 @@ BUSINESS_PATH = "/v3/businesses/"
 
 HEADERS = {"Authorization": f"Bearer {os.getenv('API_KEY')}"}
 
+BUSINESSES_COUNT = 100
+"""
+Will get BUSINESSES_COUNT results maximum 1000, Should be a multiple of 50
+Check API documentation for more information:
+https://docs.developer.yelp.com/reference/v3_business_search
+"""
+# TODO: Add the ability for the user to change the number of results
+
+# CSS selectors used for parsing the required information
+WEB_ADDRESS_LINK_CSS_CLASS = "css-1um3nx"
+
+REVIEW_CSS_CLASS = "review__09f24__oHr9V border-color--default__09f24__NPAKY"
+REVIEWER_NAME_CSS_CLASS = "css-1m051bw"
+REVIEWER_LOCATION_CSS_CLASS = "css-qgunke"
+REVIEW_DATE_CSS_CLASS = "css-chan6m"
+
 
 def get_businesses(category, location):
     businesses_data = []
 
-    # It is possible to get 1000 results, but it will take some time...
-    # for offset in range(0, 1000, 50):
-    for offset in range(0, 50, 50):  # Will get 50 results
+    for offset in range(0, BUSINESSES_COUNT, 50):  # Will get BUSINESSES_COUNT results
         params = {
             "location": location.replace(" ", "+"),
             "categories": category.replace(" ", "+"),
@@ -58,12 +72,11 @@ def get_businesses(category, location):
 
 
 def get_additional_info(url: str) -> list:
-
     soup = BeautifulSoup(requests.get(url).content, "html.parser")
 
     try:
         href = soup.find("a", {
-            "class": "css-1um3nx",
+            "class": WEB_ADDRESS_LINK_CSS_CLASS,
             "target": "_blank"
         }).get(
             "href"
@@ -74,7 +87,7 @@ def get_additional_info(url: str) -> list:
         href = "No web address"
 
     all_items = soup.find_all(
-        "div", {"class": "review__09f24__oHr9V border-color--default__09f24__NPAKY"}
+        "div", {"class": REVIEW_CSS_CLASS}
     )[:5]
 
     reviews = []
@@ -82,17 +95,17 @@ def get_additional_info(url: str) -> list:
     for item in all_items:
 
         try:
-            name = item.find("a", {"class": "css-1m051bw"}).text
+            name = item.find("a", {"class": REVIEWER_NAME_CSS_CLASS}).text
         except AttributeError:
             name = "No name"
 
         try:
-            reviewer_location = item.find("span", {"class": "css-qgunke"}).text
+            reviewer_location = item.find("span", {"class": REVIEWER_LOCATION_CSS_CLASS}).text
         except AttributeError:
             reviewer_location = "No location"
 
         try:
-            review_date = item.find("span", {"class": "css-chan6m"}).text
+            review_date = item.find("span", {"class": REVIEW_DATE_CSS_CLASS}).text
         except AttributeError:
             review_date = "No date"
 
