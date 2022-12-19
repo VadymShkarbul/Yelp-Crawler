@@ -1,7 +1,6 @@
 import json
 import os
 import re
-import time
 
 import requests
 
@@ -146,8 +145,5 @@ def main():
 
 
 if __name__ == "__main__":
-    start = time.perf_counter()
     main()
-    end = time.perf_counter()
 
-    print("Elapsed:", end - start)
